@@ -1,0 +1,272 @@
+<html lang="ar"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadi</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>قائمة العقارات</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>المدينة </th>
+                    <th>نوع العقار</th>
+                    <th>سعر الإيجار</th>
+           
+                    <th>التفاصيل</th>
+                    <th>إختر العقار</th>
+                </tr>
+            </thead>
+            <tbody id="property-details">
+            <tr>
+        <td>دمشق</td>
+        <td>بناء </td>
+        <td>ل.س 800000 الف  ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="0">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="0"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-0">
+            <p><strong>المساحة:</strong> 150 متر مربع</p>
+            <p><strong>العنوان:</strong> شارع المزة</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار </p>
+            <div class="images-container" id="images-container-0"><img src="images3.jpg"><img src="images4.jpg"><img src="images2.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>ريف دمشق</td>
+        <td>شقة</td>
+        <td>ل.س 750000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="1">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="1"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-1">
+            <p><strong>المساحة:</strong> 90 متر مربع</p>
+            <p><strong>العنوان:</strong> مدينة التل</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-1"><img src="images10.jpg"><img src="images11.jpg"><img src="images15.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>حمص</td>
+        <td>شقة</td>
+        <td>ل.س 100000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="2">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="2"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-2">
+            <p><strong>المساحة:</strong> 70 متر مربع</p>
+            <p><strong>العنوان:</strong> شارع الحضارة </p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-2"><img src="images13.jpg"><img src="images20.jpg"><img src="images21.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>طرطوس</td>
+        <td>شقة</td>
+        <td>ل.س 400000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="3">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="3"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-3">
+            <p><strong>المساحة:</strong> 125 متر مربع</p>
+            <p><strong>العنوان:</strong> شارع العريض</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-3"><img src="/images14.jpg"><img src="images18.jpg"><img src="images19.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>اللاذقية</td>
+        <td>شقة</td>
+        <td>ل.س 800000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="4">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="4"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-4">
+            <p><strong>المساحة:</strong> 250 متر مربع</p>
+            <p><strong>العنوان:</strong> شارع الثورة</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-4"><img src="images1.jpg"><img src="images22.jpg"><img src="images23.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>حماة</td>
+        <td>شقة</td>
+        <td>ل.س 750000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="5">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="5"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-5">
+            <p><strong>المساحة:</strong> 150 متر مربع</p>
+            <p><strong>العنوان:</strong> شارع النواعير</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-5"><img src="images26.jpg"><img src="images17.jpg"><img src="images24.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>حلب</td>
+        <td>شقة</td>
+        <td>ل.س 600000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="6">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="6"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-6">
+            <p><strong>المساحة:</strong> 200 متر مربع</p>
+            <p><strong>العنوان:</strong> جانب القلعة</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-6"><img src="images27.jpg"><img src="images23.jpg"><img src="images16.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>دير الذور</td>
+        <td>شقة</td>
+        <td>ل.س 1000000 مليون ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="7">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="7"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-7">
+            <p><strong>المساحة:</strong> 200 متر مربع</p>
+            <p><strong>العنوان:</strong> الميادين</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-7"><img src="images4.jpg"><img src="images11.jpg"><img src="images7.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>السويداء</td>
+        <td>شقة</td>
+        <td>ل.س 650000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="8">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="8"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-8">
+            <p><strong>المساحة:</strong> 300 متر مربع</p>
+            <p><strong>العنوان:</strong> جبل العرب</p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-8"><img src="images28.jpg"><img src="images18.jpg"><img src="images8.jpg"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td>درعا </td>
+        <td>شقة</td>
+        <td>ل.س 950000 الف ليرة</td>
+        
+        <td><button class="show-details-btn" data-index="9">إظهار التفاصيل</button></td>
+        <td><label for="property-radio"> </label>
+        <input type="radio" name="property-choice" class="property-radio" data-index="9"></td>
+      </tr><tr class="expanded-details">
+        <td colspan="10">
+          <div class="details-content" id="details-content-9">
+            <p><strong>المساحة:</strong> 175 متر مربع</p>
+            <p><strong>العنوان:</strong> بصرى </p>
+            <p><strong>الوصف:</strong> تفاصيل العقار</p>
+            <div class="images-container" id="images-container-9"><img src="images5.jpg"><img src="images23.jpg"><img src="images3.jpg"></div>
+          </div>
+        </td>
+      </tr></tbody>
+        </table>
+
+        <div id="formContainer">
+            <form id="userDataForm">
+                <div>
+                    <label for="username">أسم المستخدم:</label>
+                    <input type="text" id="username" name="username" placeholder="أدخل اسمك بالعربية" required="">
+                </div>
+                <div>
+                    <label for="nationalId">الرقم الوطني:</label>
+                    <input type="text" id="nationalId" name="nationalId" placeholder="رقم الهوية" required="" minlength="11" maxlength="11">
+                </div>
+                <div>
+                    <label for="dob">تاريخ الميلاد:</label>
+                    <input type="text" id="dob" name="dob" placeholder="dd-mm-yyyy" pattern="\d{2}-\d{2}-\{4}" required="">
+                </div>
+                <div>
+                    <label for="phoneNumber">رقم الموبايل:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="09XXXXXXXX" pattern="09\d{8}" required="">
+                </div>
+                <div>
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required="">
+                </div>
+                <div>
+                    <label for="captcha">رمز التحقق:</label>
+                    <input type="text" id="captcha" name="captcha" placeholder="أدخل رمز التحقق" required="">
+                    <span id="captchaText">0bxc8I</span>
+                    <button type="button" onclick="generateCaptcha()">تغيير الرمز</button>
+                </div>
+                <button type="submit">إرسال</button>
+                <button type="button" onclick="cancelForm()">إلغاء</button>
+            </form>
+        </div>
+
+        <center>
+            <button class="BU">متابعة</button>
+        </center>
+    </div>
+
+
+   <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>الافتراضية <span> متجر لبيع و اجار العقارات </span></h3>
+
+                <p class="footer-links">
+                    <a href="About.html">About</a>
+                    |
+                    <a href="Products.html">Products</a>
+                    |
+                    <a href="index.html">Home</a>
+                </p>
+
+                <p class="footer-company-name"><b>رابط الموقع </b><strong> <a href="">هنا </a></strong> </p>
+            </div>
+
+            
+          
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>عن الشركة </span>
+                    <strong> </strong>   اذا كنت تبحث عن العقار المناسب لك متجرنا طريق  لمساعدتك حيث يوجد العديد من العقارات الذي تلبي طموحك في جميع المحافظات لدينا ما تحتاجه   
+                </p>
+              
+            </div>
+        </footer>
+    
+
+    <script src="myfunctions.js"></script>
+
+
+</body></html>
